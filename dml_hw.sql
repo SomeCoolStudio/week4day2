@@ -60,8 +60,12 @@ INSERT INTO movie(
 
 INSERT INTO ticket (
     ticket_id,
-    sale_id
+    sale_id,
+    price,
+    class
 ) VALUES (
     1, 
-    2
+    2,
+    8.99,
+    "Luxury"
  );
